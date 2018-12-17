@@ -27,6 +27,8 @@
     <title><?php echo get_title() . ' - ' . get_description(); ?></title>
     <meta name="description" content="" />
     <meta name="keyword" content="" />
+    <meta name="theme-color" content="#ff4665" />
+    <meta name="msapplication-TileColor" content="#ff4665" />
     <link type="text/css" rel="stylesheet" href="asset/css/main.css" />
   </head>
   <body>
@@ -36,7 +38,7 @@
         <h3 class="description"><?php echo get_description(); ?></h3>
       </div>
       <div class="link-area">
-        <input id="url" type="text" placeholder="https://" />
+        <input id="url" type="url" placeholder="https://" spellcheck="false" onkeydown="keyEnter()" required />
         <input id="submit" type="button" value="Generate" onclick="APP.fn.setUrl(this)" />
       </div>
       <div class="footer">Copyright &copy; <a href="https://github.com/qNFCp" title="Carignor" target="_blank">Caringor</a> / <a href="https://github.com/qNFCp/CRZ.im" title="Fork me on Github" target="_blank">Fork me on Github</a>.</div>
@@ -44,4 +46,12 @@
   </body>
   <!-- JS -->
   <script type="text/javascript" src="asset/js/app.js"></script>
+  <script type="text/javascript">
+  function keyEnter(){
+    if(event.keyCode==13){
+      APP.fn.setUrl(document.getElementById("submit"));
+    }
+  }
+  document.getElementById("url").focus();
+  </script>
 </html>
