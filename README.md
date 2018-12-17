@@ -1,9 +1,12 @@
 # CRZ.im
 ---
-> һ��֧������������վ��Դ����
+> 一个支持域名缩短网站的源代码
 
-## ����
-[CRZ.im](http://crz.im/) ��һ����ַ���̷������վ����������Դ���롣
+## 概述
+[CRZ.im](http://crz.im/) 是一个网址缩短服务的网站，这是它的源代码。
 
-## ��װ
-[CRZ.im](http://crz.im/) ���� PHP��SQLite ���п�������ֻ��Ҫ�޸� `config.php` ��������ò��� inc Ŀ¼Ȩ������Ϊ�ɶ�д���ɡ����� `Nginx` �û�������� `nginx.txt` ������������ӵ� Nginx �������ļ��
+## 安装
+[CRZ.im](http://crz.im/) 基于 PHP、SQLite 进行开发，您只需要修改 `config.php` 的相关配置并把 inc 目录权限设置为可读写即可。对于 `Nginx` 用户，则还需把 `nginx.txt` 里面的内容添加到 Nginx 的配置文件里。
+
+### 对于宝塔面板
+Nginx：在站点修改→配置文件 内加入 `Nginx.txt` 中的内容到底部 `access_log /www/wwwlogs/***` 行之前即可
