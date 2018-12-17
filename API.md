@@ -13,8 +13,11 @@ API方式：POST
 ### 例子
 其中 
 {"url": "https://www.google.com/"}
-{"url": "www.google.com/"}'
-{"url": "https://233.be/537b"}'
+
+{"url": "www.google.com/"}
+
+{"url": "https://233.be/537b"}
+
 为POST参数
 
 例1：
