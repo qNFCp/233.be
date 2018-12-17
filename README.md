@@ -8,5 +8,5 @@
 ## 安装
 [CRZ.im](http://crz.im/) 基于 PHP、SQLite 进行开发，您只需要修改 `config.php` 的相关配置并把 inc 目录权限设置为可读写即可。对于 `Nginx` 用户，则还需把 `nginx.txt` 里面的内容添加到 Nginx 的配置文件里。
 
-### 对于宝塔面板
+## 对于宝塔面板
 Nginx：在站点修改→配置文件 内加入 `Nginx.txt` 中的内容到底部 `access_log /www/wwwlogs/***` 行之前即可
