@@ -7,7 +7,7 @@
 基于[CRZ.im](https://github.com/Caringor/CRZ.im/)
 
 ## API
-[API文档](https://github.com/qNFCp/CRZ.im/blob/master/API.md)
+[API文档](https://github.com/qNFCp/233.be/blob/master/API.md)
 
 ## 安装
 233.be 基于 PHP、SQLite 进行开发，您只需要修改 `config.php` 的相关配置并将 inc 目录设置为公共读写权限即可。
