@@ -39,7 +39,7 @@
         <input id="url" type="text" placeholder="https://" />
         <input id="submit" type="button" value="Generate" onclick="APP.fn.setUrl(this)" />
       </div>
-      <div class="footer">Copyright &copy; <a href="https://github.com/Caringor/" title="Carignor" target="_blank">Caringor</a> / <a href="https://github.com/Caringor/CRZ.im/" title="Fork me on Github" target="_blank">Fork me on Github</a>.</div>
+      <div class="footer">Copyright &copy; <a href="https://github.com/qNFCp" title="Carignor" target="_blank">Caringor</a> / <a href="https://github.com/qNFCp/CRZ.im" title="Fork me on Github" target="_blank">Fork me on Github</a>.</div>
     </div>
   </body>
   <!-- JS -->
