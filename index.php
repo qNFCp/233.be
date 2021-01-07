@@ -1,15 +1,15 @@
 <?php
 
-  // 引入类
+  // 引入类 Import
   require_once('inc/require.php');
 
   if(isset($_GET['id'])) {
     
     $url_c = new url();
 
-    // 获取目标网址
+    // 获取目标网址 Get destination URL
     $url = $url_c->get_url($_GET['id']);
-    // 重定向至目标网址
+    // 重定向至目标网址 Redirect to destination URL
     if($url) {
       header('Location: ' . $url);
       exit;
@@ -41,7 +41,13 @@
         <input id="url" type="url" placeholder="https://" spellcheck="false" onkeydown="keyEnter()" required />
         <input id="submit" type="button" value="Generate" onclick="APP.fn.setUrl(this)" />
       </div>
-      <div class="footer">Copyright &copy; <?php echo date("Y"); ?> <a href="https://github.com/qNFCp" title="Carignor" target="_blank">Caringor</a> / <a href="https://github.com/qNFCp/CRZ.im" title="Fork me on Github" target="_blank">Fork me on Github</a>.</div>
+      <div class="footer">Copyright &copy; <?php echo date("Y"); ?> <a href="https://github.com/Caringor/" title="Carignor" target="_blank">Caringor</a> & <a href="https://github.com/qNFCp" title="qNFCp" target="_blank">qNFCp</a></div>
+    </div>
+  </body>
+  <!-- JS -->
+  <script type="text/javascript" src="asset/js/app.js"></script>
+</html>
+
     </div>
   </body>
   <!-- JS -->
